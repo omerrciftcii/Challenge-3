@@ -1,0 +1,146 @@
+body {
+  background-color: #e4fff3;
+  font-family: "Poppins";
+}
+
+.logo {
+  width: 75px;
+  height: 75px;
+}
+
+.navbar-section {
+  margin-right: 150px;
+  margin-left: 150px;
+  margin-bottom: 15px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 4px;
+    color: grey;
+  }
+  .material-icons {
+    margin: auto;
+    color: black;
+  }
+  .circle {
+    background-color: white;
+  }
+}
+
+.summary-section {
+  display: flex;
+  margin-right: 150px;
+  margin-left: 150px;
+  margin-top: 36px;
+  .name {
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .summary-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+  }
+
+  .button {
+    margin-top: 25px;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+  }
+
+  img {
+    width: 80%;
+    height: 80%;
+    margin-left: 250px;
+  }
+}
+.services-section {
+  margin-right: 150px;
+  margin-left: 150px;
+
+  .material-icons {
+    margin-left: 12px;
+    margin-top: 7px;
+    color: white;
+  }
+
+  .content-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.portfolio-section {
+  margin-right: 150px;
+  margin-left: 150px;
+
+  .material-icons {
+    color: #9d0fbe;
+  }
+
+  .text-container {
+    display: block;
+    padding: 0;
+    margin-top: 1rem;
+  }
+
+  img {
+    margin-right: 4rem;
+    margin-top: 4rem;
+  }
+}
+
+.clients-section {
+  margin-right: 150px;
+  margin-left: 150px;
+  margin-top: 150px;
+  .client-layout {
+    display: flex;
+    margin-top: 10px;
+  }
+  .client-container {
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+    height: 10rem;
+    background-color: wheat;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.testimonials {
+  margin-right: 150px;
+  margin-left: 150px;
+  img {
+    width: 6rem;
+    height: 6%;
+    border-radius: 50%;
+  }
+  .content {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    img {
+      width: 6rem;
+      height: 6rem;
+      border-radius: 50%;
+    }
+    .flex-column {
+      align-items: center;
+    }
+    .text-container {
+      width: 50%;
+    }
+  }
+}
